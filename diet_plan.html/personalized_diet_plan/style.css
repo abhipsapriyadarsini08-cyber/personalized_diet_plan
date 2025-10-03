@@ -1,0 +1,29 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #000000;
+}
+
+/* Custom animation for the results to appear smoothly */
+@keyframes fadeIn {
+    from {
+        opacity: 3;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 2;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.9s ease-in-out forwards;
+}
+
+/* Gradient text for the title */
+.gradient-text {
+    background: linear-gradient(30deg, #5900ff, #fd0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+   -webkit-text-fill-color: rgb(0, 0);
+}
